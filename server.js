@@ -4,7 +4,8 @@ const dbConfig = require("./config/db.config");
 
 const app = express();
 
-origins = ["http://localhost:3000", "http://3.16.67.155"];
+origins = ["http://localhost:3000", "http://3.16.67.155", "http://jesse-garcia-full-stack-banking-application.s3-website.ca-central-1.amazonaws.com/"
+];
 var corsOptions = {
   origin: origins,
 };
